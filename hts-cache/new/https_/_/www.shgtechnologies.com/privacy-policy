@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" data-wf-page="61844dd435c43a1d95ec3bda">
-
-<!-- Mirrored from www.shgtechnologies.com/about-us by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 16:21:09 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,44 +12,11 @@
     <meta name="csrf-token" content="EUv9vi1mVdLk7pvwcwDBKUnOFu9A9oL0hf3iANuS">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/bootstrap%404.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.shgtechnologies.com/css/custom.css">
         <style>
-        #navbar {background-color:rgb(109, 111, 114);}
-        /* map starts */
-        .distribution-map {
-            position: relative;
-            width: 100%;
-            padding: 20px;
-            box-sizing: border-box;
-            margin: 0 auto;
-        }
-        .distribution-map > img {
-            width: 100%;
-            position: relative;
-            margin: 0;
-            padding: 0;
-        }
-        .distribution-map .pin-point {
-            outline: none;
-            z-index: 0;
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            border-radius: 20px;
-            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-            opacity: 0.8;
-            transform: translate(-50%, -50%);
-            -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-            -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-            -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
-            -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
-            transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
-            background: rgba(26, 26, 26, 0.85);
-            border: 5px solid #7fcff7;
-        }
-        /* map ends */
+        #navbar {background-color:rgba(14, 24, 38, 1);}
     </style>
     <style>
         .section-head h2 {
@@ -133,70 +97,93 @@
 <body>
     <div class="sidenav">
         <a style="cursor:pointer" class="closesidenav">&times;</a>
-                <a href="index.html">Home</a>
-        <a href="about-us.html">About</a>
-        <a href="products.html">Products</a>
-        <a href="media-coverage.html">Media</a>
+                <a href="https://www.shgtechnologies.com">Home</a>
+        <a href="https://www.shgtechnologies.com/about-us">About</a>
+        <a href="https://www.shgtechnologies.com/products">Products</a>
+        <a href="https://www.shgtechnologies.com/media-coverage">Media</a>
                 <a class="nav_li_login" type="button">Register/Login</a>
                     </div>
 
-                    <div id="navbar">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-3">
-                                    <span>
-                                       <img src="images\alpha.png" style="width: 150px;" >
-                                    </span>
-                                </div>
-                                <div class="col-9 SideMenus">
-                                    <span style="font-size:30px; cursor:pointer" class="float-right opensidenav">
-                                        <img src="images/white-menu.svg" alt="">
-                                    </span>
-                                </div>
-                                <div class="col-9 Menus">
-                                    <ul class="nav nav-items">
-                                        <li class="ml-auto pt-2 navitem-title" style="padding-left:400px ;"><a href="index.html">Home</a></li>
-                                        <li class="ml-auto pt-2 navitem-title" style="padding-left:0px ;"><a href="about-us.html">About</a></li>
-                                        <li class="ml-auto pt-2 navitem-title" style="padding-right:100px ;"><a href="products.html">Products</a></li>
-                                        <!--<li class="ml-auto pt-3 navitem-title"><a href="media-coverage.html">Media</a></li>
-                                                                                        <li class="ml-auto pt-3 navitem-title"> <a class="nav_li_login" type="button">Register/ Login</a></li>-->
-                                                            </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div id="navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <span>
+                        <img src="https://www.shgtechnologies.com/images/logo-3200x1143.png" alt="">
+                    </span>
+                </div>
+                <div class="col-9 SideMenus">
+                    <span style="font-size:30px; cursor:pointer" class="float-right opensidenav">
+                        <img src="https://www.shgtechnologies.com/images/white-menu.svg" alt="">
+                    </span>
+                </div>
+                <div class="col-9 Menus">
+                    <ul class="nav nav-items">
+                        <li class="ml-auto pt-3 navitem-title"><a href="https://www.shgtechnologies.com">Home</a></li>
+                        <li class="ml-auto pt-3 navitem-title"><a href="https://www.shgtechnologies.com/about-us">About</a></li>
+                        <li class="ml-auto pt-3 navitem-title"><a href="https://www.shgtechnologies.com/products">Products</a></li>
+                        <li class="ml-auto pt-3 navitem-title"><a href="https://www.shgtechnologies.com/media-coverage">Media</a></li>
+                                                                        <li class="ml-auto pt-3 navitem-title"> <a class="nav_li_login" type="button">Register/ Login</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="after_navbar"></div>
-<br><br>
-<div class="feat bg-grey pb-5">
+<div class="feat bg-grey pt-5 pb-5">
     <div class="container">
         <div class="row">
             <div class="section-head col-12">
-                <h2 style="font-family:Roboto;"><span>About Us</span></h2>
+                <h2 style="font-family:Roboto;"><span>Privacy Policy</span></h2>
                 <br>
             </div>
+        </div>
+        <div class="row">
             <div class="col-12">
-                <p style="font-size:16px;font-family:Roboto;">
-                    We apply technology innovation to problems that have social relevance. We are passionate about assisting society with our innovative product, which is designed to bring a new companion into the lives of people with disability.
+                <p>
+                    For us privacy for our valued customer is very important. We strongly believe that the personal information of our 
+                    customers should not be shared with the third party without the prior consent or request from the customer. Privacy is 
+                    the right of an individual and at SHG Technologies Private Limited the information of the customer such as contact no., 
+                    email, addresses etc is used only for the internal purpose and not for sale. Your contact information is stored in our 
+                    database and is only used by SHG Technologies Private Limited & we may contact you with regards to the updates of the 
+                    campaign, upcoming campaigns, announcements & news . We at SHG Technologies Private Limited condemn the unauthorized 
+                    reach and misuse and/or disclosure of the personal information of the customer and we have strict guidelines and high 
+                    security features to prevent the same. Any changes in our 'Privacy Policy' will be posted here on the website.
+                    <br><br>
+                    Secure Online Payments
+                    <br>
+                    The visitor on our website please take a note that your name, email address and other personal information submitted on 
+                    our website may be stored with us and may also appear on the website. Like other platforms our server log files also 
+                    receives general information such as IP address of the visitor, cookie etc. For the financial transactions by credit 
+                    card SHG Technologies Private Limited uses a 3rd party secure payment gateway provided by 'Paytm', 'Razorpay' and the 
+                    credit card details are 'not stored' with SHG Technologies Private Limited.
+                    <br><br>
+                    Smart Cookies
+                    <br>
+                    We use 'Cookies' to keep track of your current shopping session to personalize your experience and so that you may 
+                    retrieve your shopping cart at any time. 'Cookies' are tiny text files which our Website places on your computer's hard 
+                    drive to store information about your shopping session and to identify your computer. Return, Refund and Cancellation 
+                    Policy After placing the order customer can cancel the order within 1 week if he/she wish to. And in case of customer 
+                    request for Refund, it will be processed through same mode within 10 working days. Products can be returned within 1 
+                    week from the day of delivery to the partner organization.
                 </p>
             </div>
         </div>
-        <br>
-      
-           
-        
+    </div>
+</div>
 
     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <img src="images/logo-3200x1143.png" alt="" class="img-fluid">
+                    <img src="https://www.shgtechnologies.com/images/logo-3200x1143.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3">
                     <div class="text-block">
                         <span>Email:</span>
                         <br>
-                        <span style="font-size:16px;"> contactus.sahastrakaar@gmail.com</span>
+                        <span style="font-size:16px;">support@smartvisionglasses.in, support@blindvision.in</span>
                         <br><br>
                         <span>Contact:</span>
                         <br>
@@ -213,10 +200,10 @@
                 <div class="col-lg-3">
                     <div class="footer_links_content">
                         <ul role="list" class="list">
-                            <li class="footer-link"><a href="index.html">Home</a></li>
-                            <li class="footer-link"><a href="about-us.html">About</a></li>
-                            <li class="footer-link"><a href="products.html">Products</a></li>
-
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com">Home</a></li>
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com/about-us">About</a></li>
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com/products">Products</a></li>
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com/media-coverage">Media</a></li>
                         </ul>
                     </div>
                 </div>
@@ -225,14 +212,14 @@
                         <ul role="list" class="list">
                                                         <li class="footer-link"><a class="nav_li_login">Register</a></li>
                             <li class="footer-link"><a class="nav_li_login">Login</a></li>
-                                                        <li class="footer-link"><a href="privacy-policy.html">Privacy policy</a></li>
-                            <li class="footer-link"><a href="terms-conditions.html">Terms &amp; conditions</a></li>
+                                                        <li class="footer-link"><a href="https://www.shgtechnologies.com/privacy-policy">Privacy policy</a></li>
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com/terms-conditions">Terms &amp; conditions</a></li>
                         </ul>
                         <a href="#" target="_blank" class="link-block twitter w-inline-block">
                             <img src="https://assets.website-files.com/61081e11ee5a0ed41c7c6d2e/6110245be6d81c22a0cff16b_Vector.svg" loading="lazy" width="20" height="20" alt="">
                         </a>
                         <a href="#" target="_blank" class="link-block linkedin w-inline-block">
-                            <img src="https://assets.website-files.com/61081e11ee5a0ed41c7c6d2e/611fc8fbe2e321dff35d9fbd_Twitter - Negative.svg" loading="lazy" width="20" height="20" alt="">
+                            <img src="https://assets.website-files.com/61081e11ee5a0ed41c7c6d2e/611fc8fbe2e321dff35d9fbd_Twitter%20-%20Negative.svg" loading="lazy" width="20" height="20" alt="">
                         </a>
                     </div>
                 </div>
@@ -377,9 +364,9 @@
         </div>
     </div>
 
-    <script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="../maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script>
         $(function() {
@@ -446,11 +433,11 @@
                         if(response.status == 'success'){
                             
                             if(response.role_id == '1'){
-                                location.href = "index.html";
+                                location.href = "https://www.shgtechnologies.com/panel/dashboard";
                             } else if(response.role_id == '4'){
-                                location.href = "index.html";
+                                location.href = "https://www.shgtechnologies.com/panel/dashboard";
                             } else if(response.role_id == '5'){
-                                location.href = "index.html";
+                                location.href = "https://www.shgtechnologies.com/report";
                             }
                         } else {
                             $('#loginHelp').show(); // help text
@@ -604,38 +591,10 @@
             });
         });
     </script>
-        <script type="text/javascript" src="../www.gstatic.com/charts/loader.js"></script>
-    <script>
+        <script>
         $(function() {
             
-            google.charts.load('current', {
-                'packages':['geochart'],
-            });
-            google.charts.setOnLoadCallback(drawRegionsMap);
-            function drawRegionsMap() {
-                var data = google.visualization.arrayToDataTable([
-                    ['Country'],
-                    ['India'],
-                    ['Germany'],
-                    ['United States'],
-                    ['Australia'],
-                    ['Kuwait'],
-                    ['Bangladesh']
-                ]);
-                var options = {colors:'blue'};
-                var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-                chart.draw(data, options);
-            }
-
-            $('.distribution-map [data-toggle="tooltip"]').tooltip('show');
-            $('.distribution-map [data-toggle="tooltip"]').hover(function(){
-                $(this).tooltip('show');
-            }, function(){
-                $(this).tooltip('show');
-            });
         });
     </script>
 </body>
-
-<!-- Mirrored from www.shgtechnologies.com/about-us by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 16:21:12 GMT -->
 </html>

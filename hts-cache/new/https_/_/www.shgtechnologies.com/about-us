@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" data-wf-page="61844dd435c43a1d95ec3bda">
-
-<!-- Mirrored from www.shgtechnologies.com/about-us by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 16:21:09 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,11 +12,11 @@
     <meta name="csrf-token" content="EUv9vi1mVdLk7pvwcwDBKUnOFu9A9oL0hf3iANuS">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/bootstrap%404.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.shgtechnologies.com/css/custom.css">
         <style>
-        #navbar {background-color:rgb(109, 111, 114);}
+        #navbar {background-color:rgba(14, 24, 38, 1);}
         /* map starts */
         .distribution-map {
             position: relative;
@@ -133,38 +130,38 @@
 <body>
     <div class="sidenav">
         <a style="cursor:pointer" class="closesidenav">&times;</a>
-                <a href="index.html">Home</a>
-        <a href="about-us.html">About</a>
-        <a href="products.html">Products</a>
-        <a href="media-coverage.html">Media</a>
+                <a href="https://www.shgtechnologies.com">Home</a>
+        <a href="https://www.shgtechnologies.com/about-us">About</a>
+        <a href="https://www.shgtechnologies.com/products">Products</a>
+        <a href="https://www.shgtechnologies.com/media-coverage">Media</a>
                 <a class="nav_li_login" type="button">Register/Login</a>
                     </div>
 
-                    <div id="navbar">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-3">
-                                    <span>
-                                       <img src="images\alpha.png" style="width: 150px;" >
-                                    </span>
-                                </div>
-                                <div class="col-9 SideMenus">
-                                    <span style="font-size:30px; cursor:pointer" class="float-right opensidenav">
-                                        <img src="images/white-menu.svg" alt="">
-                                    </span>
-                                </div>
-                                <div class="col-9 Menus">
-                                    <ul class="nav nav-items">
-                                        <li class="ml-auto pt-2 navitem-title" style="padding-left:400px ;"><a href="index.html">Home</a></li>
-                                        <li class="ml-auto pt-2 navitem-title" style="padding-left:0px ;"><a href="about-us.html">About</a></li>
-                                        <li class="ml-auto pt-2 navitem-title" style="padding-right:100px ;"><a href="products.html">Products</a></li>
-                                        <!--<li class="ml-auto pt-3 navitem-title"><a href="media-coverage.html">Media</a></li>
-                                                                                        <li class="ml-auto pt-3 navitem-title"> <a class="nav_li_login" type="button">Register/ Login</a></li>-->
-                                                            </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div id="navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <span>
+                        <img src="https://www.shgtechnologies.com/images/logo-3200x1143.png" alt="">
+                    </span>
+                </div>
+                <div class="col-9 SideMenus">
+                    <span style="font-size:30px; cursor:pointer" class="float-right opensidenav">
+                        <img src="https://www.shgtechnologies.com/images/white-menu.svg" alt="">
+                    </span>
+                </div>
+                <div class="col-9 Menus">
+                    <ul class="nav nav-items">
+                        <li class="ml-auto pt-3 navitem-title"><a href="https://www.shgtechnologies.com">Home</a></li>
+                        <li class="ml-auto pt-3 navitem-title"><a href="https://www.shgtechnologies.com/about-us">About</a></li>
+                        <li class="ml-auto pt-3 navitem-title"><a href="https://www.shgtechnologies.com/products">Products</a></li>
+                        <li class="ml-auto pt-3 navitem-title"><a href="https://www.shgtechnologies.com/media-coverage">Media</a></li>
+                                                                        <li class="ml-auto pt-3 navitem-title"> <a class="nav_li_login" type="button">Register/ Login</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="after_navbar"></div>
 <br><br>
@@ -177,26 +174,77 @@
             </div>
             <div class="col-12">
                 <p style="font-size:16px;font-family:Roboto;">
-                    We apply technology innovation to problems that have social relevance. We are passionate about assisting society with our innovative product, which is designed to bring a new companion into the lives of people with disability.
+                    We apply technology innovation to problems that have social relevance. Our product SMART VISION GLASSES, a wearable device for the blind/visually impaired using Artificial Intelligence, Machine Vision, and Machine Learning. Our venture is based on life satisfaction approaches based on the number of blind and visually impaired who can benefit from the device that allows them to see virtually. We are passionate about assisting society with our innovative product, which is designed to bring a new companion into the lives of people with vision impairment.
                 </p>
             </div>
         </div>
         <br>
-      
-           
-        
+        <div class="row">
+            <div class="col-md-3">
+                <img src="https://www.shgtechnologies.com/images/DJRaju-director.png" alt="" class="img-fluid"><br>
+                <p style="font-size:16px; font-family:Roboto; font-weight:bold;">
+                    Captain DJ Raju<br>
+                    Founder & Director<br>
+                    India
+                </p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://www.shgtechnologies.com/images/Ramu-ceo.png" alt="" class="img-fluid"><br>
+                <p style="font-size:16px;font-family:Roboto; font-weight:bold">
+                    Ramu Muthangi<br>
+                    Founder & CEO<br>
+                    USA
+                </p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://www.shgtechnologies.com/images/associates.png" alt="" class="img-fluid"><br>
+                <p style="font-size:16px;font-family:Roboto; font-weight:bold">
+                    Ram<br>
+                    Associate<br>
+                    USA
+                </p>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+            <div class="section-head col-12">
+                <h2 style="font-family:Roboto;"><span>Operation Areas</span></h2>
+                <br>
+            </div>
+            <div class="col-12">
+                <p style="font-size:16px;font-family:Roboto;">
+                    We are operational in different countries like US, Australia, Bangladesh, Germany, Kuwait. Our mission is to develop an affordable wearable device for the blind/visually impaired and those with low vision that will make a difference in their lives, facilitate advancement, and allow them to live with independence and dignity.
+                </p>
+                <div style="display:none;">
+                    <div id="regions_div" style="width:100%;"></div>
+                </div>
+
+                <div class="distribution-map">
+                    <img src="https://www.shgtechnologies.com/images/world_map.png" alt="" class="img-fluid">
+                    <div class="pin-point" style="top:33%; left:50%" data-toggle="tooltip" title="Germany"></div>
+                    <div class="pin-point" style="top:76%; left:82.5%" data-toggle="tooltip" title="Australia"></div>
+                    <div class="pin-point" style="top:41%; left:20%" data-toggle="tooltip" title="United States"></div>
+                    <div class="pin-point" style="top:47%; left:59%" data-toggle="tooltip" title="Kuwait"></div>
+                    <div class="pin-point" style="top:52%; left:68%" data-toggle="tooltip" title="India, Bangladesh"></div>
+                    <div class="pin-point" style="top:51%; left:78%" data-toggle="tooltip" title="Hong Kong"></div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
 
     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <img src="images/logo-3200x1143.png" alt="" class="img-fluid">
+                    <img src="https://www.shgtechnologies.com/images/logo-3200x1143.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3">
                     <div class="text-block">
                         <span>Email:</span>
                         <br>
-                        <span style="font-size:16px;"> contactus.sahastrakaar@gmail.com</span>
+                        <span style="font-size:16px;">support@smartvisionglasses.in, support@blindvision.in</span>
                         <br><br>
                         <span>Contact:</span>
                         <br>
@@ -213,10 +261,10 @@
                 <div class="col-lg-3">
                     <div class="footer_links_content">
                         <ul role="list" class="list">
-                            <li class="footer-link"><a href="index.html">Home</a></li>
-                            <li class="footer-link"><a href="about-us.html">About</a></li>
-                            <li class="footer-link"><a href="products.html">Products</a></li>
-
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com">Home</a></li>
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com/about-us">About</a></li>
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com/products">Products</a></li>
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com/media-coverage">Media</a></li>
                         </ul>
                     </div>
                 </div>
@@ -225,14 +273,14 @@
                         <ul role="list" class="list">
                                                         <li class="footer-link"><a class="nav_li_login">Register</a></li>
                             <li class="footer-link"><a class="nav_li_login">Login</a></li>
-                                                        <li class="footer-link"><a href="privacy-policy.html">Privacy policy</a></li>
-                            <li class="footer-link"><a href="terms-conditions.html">Terms &amp; conditions</a></li>
+                                                        <li class="footer-link"><a href="https://www.shgtechnologies.com/privacy-policy">Privacy policy</a></li>
+                            <li class="footer-link"><a href="https://www.shgtechnologies.com/terms-conditions">Terms &amp; conditions</a></li>
                         </ul>
                         <a href="#" target="_blank" class="link-block twitter w-inline-block">
                             <img src="https://assets.website-files.com/61081e11ee5a0ed41c7c6d2e/6110245be6d81c22a0cff16b_Vector.svg" loading="lazy" width="20" height="20" alt="">
                         </a>
                         <a href="#" target="_blank" class="link-block linkedin w-inline-block">
-                            <img src="https://assets.website-files.com/61081e11ee5a0ed41c7c6d2e/611fc8fbe2e321dff35d9fbd_Twitter - Negative.svg" loading="lazy" width="20" height="20" alt="">
+                            <img src="https://assets.website-files.com/61081e11ee5a0ed41c7c6d2e/611fc8fbe2e321dff35d9fbd_Twitter%20-%20Negative.svg" loading="lazy" width="20" height="20" alt="">
                         </a>
                     </div>
                 </div>
@@ -377,9 +425,9 @@
         </div>
     </div>
 
-    <script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="../maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script>
         $(function() {
@@ -446,11 +494,11 @@
                         if(response.status == 'success'){
                             
                             if(response.role_id == '1'){
-                                location.href = "index.html";
+                                location.href = "https://www.shgtechnologies.com/panel/dashboard";
                             } else if(response.role_id == '4'){
-                                location.href = "index.html";
+                                location.href = "https://www.shgtechnologies.com/panel/dashboard";
                             } else if(response.role_id == '5'){
-                                location.href = "index.html";
+                                location.href = "https://www.shgtechnologies.com/report";
                             }
                         } else {
                             $('#loginHelp').show(); // help text
@@ -604,7 +652,7 @@
             });
         });
     </script>
-        <script type="text/javascript" src="../www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script>
         $(function() {
             
@@ -636,6 +684,4 @@
         });
     </script>
 </body>
-
-<!-- Mirrored from www.shgtechnologies.com/about-us by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 16:21:12 GMT -->
 </html>
