@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" data-wf-page="61844dd435c43a1d95ec3bda">
+
+<!-- Mirrored from www.shgtechnologies.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 16:20:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DrishtiPad</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6R0TYTH88M"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-6R0TYTH88M'); </script>
+    <!-- Google tag (gtag.js) -->
+    <meta name="google-site-verification" content="wKA9EHZbmudpr3Fy70bx5xg5Kj27UYmfAC3BJHVbc">
+    <meta name="csrf-token" content="EUv9vi1mVdLk7pvwcwDBKUnOFu9A9oL0hf3iANuS">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/bootstrap%404.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+        <style>
+        #navbar {background-color:rgba(14, 24, 38, 0.2);}
+        .video_bg_content {position:relative; height:750px;}
+        .video_content.is--home-hero {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            height: 100%;
+            padding-top: 25em;
+            padding-bottom: 4em;
+            -webkit-box-align: end;
+            -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+            align-items: flex-end;
+        }
+        .video_content {
+            position: relative;
+            width: 1440px;
+            max-width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 15em 6.94em;
+        }
+        .play-button.pulsing-outline {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            right: auto;
+            bottom: auto;
+            z-index: 10;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100px;
+            height: 100px;
+            margin-right: auto;
+            margin-left: auto;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-radius: 500px;
+            -webkit-transform: translate(-50px, -50px);
+            -ms-transform: translate(-50px, -50px);
+            transform: translate(-50px, -50px);
+        }
+        .pulsing-outline {box-shadow:0 0 0 0 rgb(210 233 236); animation:pulsing-outline 2s infinite;}
+        .play-video-button {
+            display: inline-block;
+            padding: 9px 15px;
+            background-color: #3898EC;
+            color: white;
+            border: 0;
+            line-height: inherit;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 0;
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            background-image: url(images/playbutton.svg);
+            background-position: 50% 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .video_header {position:relative; left:0%; top:auto; right:auto; bottom:0%; z-index:4;}
+        .video_header p {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-family: Suisseintl, sans-serif;
+            font-size: 54px;
+            line-height: 1.31;
+            font-weight: 400;
+            opacity: 1;
+            color: #fff;
+            width: 50%;
+        }
+        @media  screen and (max-width:788px) {
+            .video_header p {font-size:26px; line-height: 2.11; width:100%;}
+        }
+        .video_bg_overlap {
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            right: 0%;
+            bottom: 0%;
+            z-index: 2;
+            background-color: #0e1826;
+            opacity: 0.7;
+        }
+        .w-background-video {
+            position: relative;
+            overflow: hidden;
+            height: 500px;
+            color: white;
+        }
+        .background-video-2 {
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            right: 0%;
+            bottom: 0%;
+            z-index: -10;
+            width: 100%;
+            height: 100%;
+        }
+        .w-background-video>video {
+            background-size: cover;
+            background-position: 50% 50%;
+            position: absolute;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            right: -100%;
+            bottom: -100%;
+            top: -100%;
+            left: -100%;
+            object-fit: cover;
+            z-index: -100;
+        }
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        .what_is_svg .faq-q {
+            line-height:1.74;
+            font-style:normal;
+            font-family:"CerebriSans";
+            color:#696969;
+            background-color:#ffffff;
+            border-top: 2px dashed;
+            border-color: #017b9f !important;
+            margin: 0;
+            padding: 30px;
+            counter-increment: section;
+            position: relative;
+        }
+        .what_is_svg .faq-q:nth-child(even) {
+            border-left: 2px dashed;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            margin-right: 30px;
+            padding-right: 0;
+        }
+        .what_is_svg .faq-q:nth-child(odd) {
+            border-right: 2px dashed;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            margin-left: 30px;
+            padding-left: 0;
+        }
+        .what_is_svg .faq-q:first-child {
+            border-top: 0;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+        }
+        .what_is_svg .faq-q:last-child {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .feature_item {
+            background: #fff;
+            text-align: center;
+            padding: 30px 25px;
+            -webkit-box-shadow: 0 0px 25px rgb(0 0 0 / 7%);
+            box-shadow: 0 0px 25px rgb(0 0 0 / 7%);
+            border-radius: 20px;
+            border: 5px solid rgba(0, 0, 0, 0.07);
+            margin-bottom: 30px;
+            -webkit-transition: all .5s ease 0;
+            transition: all .5s ease 0;
+            transition: all 0.5s ease 0s;
+        }
+    </style>
+    <style>
+        .section-head h2 {
+            position: relative;
+            padding: 0;
+            line-height: 1;
+            letter-spacing: 0.3px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: none;
+            margin-bottom: 30px;
+        }
+        .section-head h2:before {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background: #072B83;
+            position: absolute;
+            left: 0px;
+            bottom: -10px;
+            right: 0;
+            margin: 0 auto;
+        }
+        .navitem-title a{
+            color: white; 
+            cursor:pointer; 
+            font-size:20px; 
+            font-weight:bold; 
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+        }
+        .nav{
+            padding-left:150px;
+        }
+        .navitem-title a:hover{
+            color: #072B83;
+        }
+        .dropbtn{
+            color: white; 
+            cursor:pointer; 
+            font-size:20px; 
+            text-decoration: none;
+            background-color: transparent;
+            border: none;
+            position: relative;
+        }
+        .dropdown:hover .dropdown-content {display:block; cursor:pointer;}
+        .dropdown-content{
+            display: none;
+            background-color:#111;
+            color: black;
+            position: absolute;
+            padding-right: inherit;     
+            right:10px;
+            width:150px;
+        }
+        .dropdown-content a {
+        color: white;
+        padding: 12px;
+        width: auto;
+        text-decoration: none;
+        display: block;  
+        text-align: left;
+        }
+        .SideMenus{
+            display: none;
+        }
+        @media (max-width: 992px) {
+            .Menus {
+                display: none;
+            }
+            .SideMenus {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidenav">
+        <a style="cursor:pointer" class="closesidenav">&times;</a>
+                <a href="index.html">Home</a>
+        <a href="about-us.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="media-coverage.html">Media</a>
+                <a class="nav_li_login" type="button">Register/Login</a>
+                    </div>
+
+    <div id="navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <span>
+                       <img src="images\alpha.png" style="width: 150px;" >
+                    </span>
+                </div>
+                <div class="col-9 SideMenus">
+                    <span style="font-size:30px; cursor:pointer" class="float-right opensidenav">
+                        <img src="images/white-menu.svg" alt="">
+                    </span>
+                </div>
+                <div class="col-9 Menus">
+                    <ul class="nav nav-items">
+                        <li class="ml-auto pt-2 navitem-title" style="padding-left:400px ;"><a href="index.html">Home</a></li>
+                        <li class="ml-auto pt-2 navitem-title" style="padding-left:0px ;"><a href="#about" style="transition: 1s ease-in;">About</a></li>
+                        <li class="ml-auto pt-2 navitem-title" style="padding-right:100px ;"><a href="products.html">Products</a></li>
+                        <!--<li class="ml-auto pt-3 navitem-title"><a href="media-coverage.html">Media</a></li>
+                                                                        <li class="ml-auto pt-3 navitem-title"> <a class="nav_li_login" type="button">Register/ Login</a></li>-->
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- background video starts -->
+<div class="video_bg_content">
+    <div class="video_content is--home-hero">
+        <div class="play-button pulsing-outline">
+            <a href="#" class="play-video-button"></a>
+        </div>
+        <div class="video_header">
+            <p>DrishtiPad - Breaking the shackle of disability and It is possible...</p>
+        </div>
+    </div>
+    <div class="video_bg_overlap"></div>
+    <div data-poster-url="https://www.shgtechnologies.com/images/612fec8a5d56d80ce1c2f4e0_20210831 - Celesta Web Header Cutdown_v04 (1)-poster-00001.jpg" data-video-urls="https://www.shgtechnologies.com/videos/Visually impaired can now SEE - Smart Vision Glass noaudio.mp4,https://www.shgtechnologies.com/videos/Visually impaired can now SEE - Smart Vision Glass noaudio.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-beta-bgvideo-upgrade="false" class="background-video-2 w-background-video w-background-video-atom">
+       <!-- <video id="d3f594dc-1c0a-7e45-a58f-8d46e22a9eca-video" autoplay="" loop="" style="background-image:url('images/612fec8a5d56d80ce1c2f4e0_20210831%20-%20Celesta%20Web%20Header%20Cutdown_v04%20(1.html)-poster-00001.jpg')" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+            <source src="videos/Visually%20impaired%20can%20now%20SEE%20-%20Smart%20Vision%20Glass%20noaudio.mp4">
+            <source src="videos/Visually%20impaired%20can%20now%20SEE%20-%20Smart%20Vision%20Glass%20noaudio.webm">
+        </video>-->
+    </div>
+</div>
+<!-- background video ends -->
+<br><br>
+<div class="what_is_svg">
+    <div class="container">
+        <div class="faq-q">
+            <span>
+                <b style="font-size:36px;font-family:Roboto;">What is DrishtiPad?</b>
+            </span>
+            <p style="font-size:16px;font-family:Roboto;">
+                DrishtiPad is a wearable device for the blind/visually impaired using Artificial Intelligence, Machine Vision, and Machine Learning. The device has an electronic brain (artificial intelligence) which transforms their dark world into a more interactive, interesting and independent world. They can read their favourite book, catch up with the news on magazines and newspapers, students can write their exams without scribes and so much more.
+            </p>
+        </div>
+        <div class="faq-q">
+            <span>
+                <b style="font-size:36px;font-family:Roboto;">What is unique about the DrishtiPad?</b>
+            </span>
+            <br>
+            <p style="font-size:16px;font-family:Roboto;">
+                •	Indian regional language support in addition to English for the blind in India <br>
+                •	Object detection feature that is not existent with the only other similar product in the world<br>
+                •	Proximity sensor coupled with artificial intelligence for increased safety   <br>
+                •	Cost of the product is the most unique feature. It is priced low to facilitate affordability to the visually impaired India<br>
+                •	The only other similar product available is from Israel. However, it does not have the unique features of object detection, Hindi and Indian language support and additional safety offered by Smart Vision<br>
+            </p>
+        </div>
+        <div class="faq-q">
+            <span>
+                <b style="font-size:36px;font-family:Roboto;">How the product is life-changing for the blind?</b>
+            </span>
+            <br>
+            <p style="font-size:16px;font-family:Roboto;">
+                •	It recognizes objects in its view such as vehicles, obstacles, traffic signals, zebra crossings, furniture <br>
+                •	Identifies people, approximate age, expressions and recognizes people if a name is attached<br>
+                •	Can read books, road signs and newspapers and manuscripts<br>
+                •	Can talk in Indian regional languages such as Hindi, Tamil and Telugu<br>
+                •	Give directions to a destination when asked, using GPS<br>
+            </p>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="feat bg-grey pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="section-head col-sm-12">
+                <h2 style="font-family:Roboto;"><span>Features of DrishtiPad</span></h2>
+                <br>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="feature_item"> 
+                    <span class="icon feature_box_col_one ">
+                        <img src="images/things.png" style="width:90px; heigth:90px;"> 
+                    </span>
+                    <h6>Things Around You</h6>
+                    <p style="font-size:16px;font-family:Roboto;">All kinds of objects in front of the device are identified. Few objects which are around us like Outdoor - road, lamp post, zebra crossing, trees and Indoors objects like window, curtain, table, laptop, mobile, bottle. The user gets familiar with their surroundings</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="feature_item"> 
+                    <span class="icon feature_box_col_two">
+                        <img src="images/book.png" style="width:90px; heigth:90px;">
+                    </span>
+                    <h6>Reading Assistance</h6>
+                    <p style="font-size:16px;font-family:Roboto;">Helps in reading text / manuscript like printed book, hand written etc. User can pause to understand the text, resume back to continue reading and finally stop the flow of reading. It supports English, Hindi & all Indian regional languages such as Tamil, Telugu, Malayalam, Kannada, Marathi and Gujarati.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="feature_item"> 
+                    <span class="icon feature_box_col_three">
+                        <img src="images/walk.png" style="width:90px; heigth:90px;">
+                    </span>
+                    <h6>Walking Assistance</h6>
+                    <p style="font-size:16px;font-family:Roboto;">Safety is our number one priority. Walking assistance simply detects if any obstacle is in front of the user by a method of measurement distance and hindrance. Timely voice alerts are given to the user's precaution</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="feature_item"> 
+                    <span class="icon feature_box_col_three">
+                        <img src="images/person.png" style="width:90px; heigth:90px;">
+                    </span>
+                    <h6>Facial Recognition</h6>
+                    <p style="font-size:16px;font-family:Roboto;">Not only does calling someone by their name connect you better with that person, it also increases accountability, trust, empathy, and positive communication. Here we have Facial storage and Face recognition for visually impaired. A facial recognition system is a technology capable of matching a human face from a stored facial database of faces</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="videoModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <video id="video" controls>
+                    <source src="videos/An%20Indian%20Invention%20for%20Visually%20Impaired%20original.mp4" type="video/mp4">
+                    <source src="videos/An%20Indian%20Invention%20for%20Visually%20Impaired.html" type="video/webm">
+                        Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="about">
+<div class="feat bg-grey pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="section-head col-12">
+                <h2 style="font-family:Roboto;"><span>About Us</span></h2>
+                <br>
+            </div>
+            <div class="col-12">
+                <p style="font-size:16px;font-family:Roboto;">
+                    We apply technology innovation to problems that have social relevance. Our product SMART VISION GLASSES, a wearable device for the blind/visually impaired using Artificial Intelligence, Machine Vision, and Machine Learning. Our venture is based on life satisfaction approaches based on the number of blind and visually impaired who can benefit from the device that allows them to see virtually. We are passionate about assisting society with our innovative product, which is designed to bring a new companion into the lives of people with vision impairment.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/DJRaju-director.png" alt="" class="img-fluid"><br>
+                <p style="font-size:16px; font-family:Roboto; font-weight:bold;">
+                    Captain DJ Raju<br>
+                    Founder & Director<br>
+                    India
+                </p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/Ramu-ceo.png" alt="" class="img-fluid"><br>
+                <p style="font-size:16px;font-family:Roboto; font-weight:bold">
+                    Ramu Muthangi<br>
+                    Founder & CEO<br>
+                    USA
+                </p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/associates.png" alt="" class="img-fluid"><br>
+                <p style="font-size:16px;font-family:Roboto; font-weight:bold">
+                    Ram<br>
+                    Associate<br>
+                    USA
+                </p>
+            </div>
+        </div>
+        </div>
+        </div>
+</section>
+        <br><br><br>
+        
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="images/logo-3200x1143.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-block">
+                        <span>Email:</span>
+                        <br>
+                        <span style="font-size:16px;">support@smartvisionglasses.in, support@blindvision.in</span>
+                        <br><br>
+                        <span>Contact:</span>
+                        <br>
+                        <span style="font-size:16px;">+91 96206 38372</span>
+                        <br><br>
+                        <span>Regd. Office:</span>
+                        <br>
+                        <span style="font-size:16px;">SHG Technologies Pvt. Ltd.<br>
+                        #21, Hiprofile Business Centre,
+                        1A Church Street, Bangalore 560001,
+                        Karnataka, India</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer_links_content">
+                        <ul role="list" class="list">
+                            <li class="footer-link"><a href="index.html">Home</a></li>
+                            <li class="footer-link"><a href="about-us.html">About</a></li>
+                            <li class="footer-link"><a href="products.html">Products</a></li>
+                            <li class="footer-link"><a href="media-coverage.html">Media</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer_links_content">
+                        <ul role="list" class="list">
+                                                        <li class="footer-link"><a class="nav_li_login">Register</a></li>
+                            <li class="footer-link"><a class="nav_li_login">Login</a></li>
+                                                        <li class="footer-link"><a href="privacy-policy.html">Privacy policy</a></li>
+                            <li class="footer-link"><a href="terms-conditions.html">Terms &amp; conditions</a></li>
+                        </ul>
+                        <a href="#" target="_blank" class="link-block twitter w-inline-block">
+                            <img src="https://assets.website-files.com/61081e11ee5a0ed41c7c6d2e/6110245be6d81c22a0cff16b_Vector.svg" loading="lazy" width="20" height="20" alt="">
+                        </a>
+                        <a href="#" target="_blank" class="link-block linkedin w-inline-block">
+                            <img src="https://assets.website-files.com/61081e11ee5a0ed41c7c6d2e/611fc8fbe2e321dff35d9fbd_Twitter - Negative.svg" loading="lazy" width="20" height="20" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="customerLoginSignupModal" tabindex="-1" role="dialog" aria-labelledby="customerLoginSignupModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div id="loginTab">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="customerModal">Login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="loginEmail">Email Id:</label>
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Enter email id" >
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPassword">Password:</label>
+                            <input type="password" class="form-control" id="loginPassword" aria-describedby="loginEmailSetPasswordHelp" placeholder="******" >
+                        </div>
+                        <small id="loginHelp" class="form-text text-danger">Your email or password is incorrect</small>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" id="loginRememberme" checked> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-primary pull-right" id="loginBtn">Login</button>
+                            </div>
+                        </div>
+                        <a class="btn-link loginForgotPassword" type="button">Forgot password?</a>
+                        <br>
+                        <a class="btn-link gotoRegisterTab" type="button">New here? Go to Register</a>
+                    </div>
+                </div>
+                        
+                <div id="registerTab">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="customerModal">Register</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="registerEmail">Email Id</label>
+                                    <input type="email" class="form-control" id="registerEmail" placeholder="Enter email id" >
+                                    <small id="registerHelpEmailid1" class="form-text text-danger">Give a valid email id</small>
+                                    <small id="registerHelpEmailid2" class="form-text text-danger">Email id already exists</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="registerName">Name</label>
+                                    <input type="text" class="form-control" id="registerName" placeholder="Enter full name" >
+                                    <small id="registerHelpName" class="form-text text-danger">Give a valid name</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="registermobile">Mobile no</label>						
+                                    <input id="registermobile" type="text" class="form-control" placeholder="Mobile no">
+                                    <small id="registerHelpMobile" class="form-text text-danger">Mobile no is required</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="registerRole">User Type</label>
+                                    <select id="registerRole" class="form-control select2" name="registerRole">
+                                        <option value="">Select</option>
+                                        <option value="6">Individual</option>
+                                        <option value="5">Distributor</option>
+                                        <option value="7">NGO</option>
+                                    </select>
+                                    <small id="registerHelpRole" class="form-text text-danger">Select user type</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6 registerDivOrganizationName">
+                                <div class="form-group">
+                                    <label for="registerOrganizationName">Organization Name</label>
+                                    <input type="text" class="form-control" id="registerOrganizationName" placeholder="Enter organization name" >
+                                    <small id="registerHelpOrganizationName" class="form-text text-danger">Give a valid name</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="registerPassword">Password</label>
+                                    <input type="password" class="form-control" id="registerPassword" aria-describedby="registerHelpPassword" placeholder="******">
+                                    <small id="registerHelpPassword" class="form-text text-danger">Password should contain atleast 6 characters</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a class="btn-link gotoLoginTab" type="button">Already registered? Go to Login</a>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="button" class="btn btn-primary pull-right" id="registerBtn" value="Register">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div id="forgotPasswordEmailTab">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="customerModal">Login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <label for="forgotPasswordEmail">Enter Mobile</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="forgotPasswordEmail" readonly>
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary gotoCheckEmailMobile" type="button">Change?</button>
+                            </div>
+                        </div>
+                        <small id="forgotPasswordEmailOtpHelp" class="form-text text-danger">OTP is incorrect</small>
+                        <div class="form-group">
+                            <label for="forgotPasswordEmailSetPassword">Set Password</label>
+                            <input type="text" class="form-control" id="forgotPasswordEmailSetPassword" aria-describedby="forgotPasswordEmailSetPasswordHelp">
+                            <small id="forgotPasswordEmailSetPasswordHelp" class="form-text text-danger">Password should contain atleast 6 characters</small>
+                        </div>
+                        <input type="button" class="btn btn-primary" id="forgotPasswordEmailLoginBtn" value="Login">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="../maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script>
+        $(function() {
+            
+                                                                                    
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                    $("#navbar").removeClass("fadenavbar");
+                    $("#navbar").addClass("darkennavbar");
+                } else {
+                    document.getElementById("navbar").style.top = "-131px";
+                    $("#navbar").removeClass("darkennavbar");
+                    $("#navbar").addClass("fadenavbar");
+                }
+                prevScrollpos = currentScrollPos;
+            }
+
+            $('.opensidenav').click(function() {$('.sidenav').css('width','350px');});
+            $('.closesidenav').click(function() {$('.sidenav').css('width','0');});
+
+            // enable bootstrap tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('#loginTab').show(); // tab
+            $('#registerTab').hide(); // tab
+            $('#forgotPasswordEmailTab').hide(); // tab
+            $('#loginHelp').hide(); // help text
+            $('#checkEmailMobileHelp').hide(); // help text
+            $('#checkEmailMobHelp').hide(); // help text
+            $('#registerNameHelp').hide(); // help text
+            $('#newCustomerOtpHelp').hide(); // help text
+            $('#existingCustomerMobileHelp').hide(); // help text
+            $('#forgotPasswordEmailOtpHelp').hide(); // help text
+            $('#forgotPasswordEmailSetPasswordHelp').hide(); // help text
+            $('#forgotPasswordMobileOtpHelp').hide(); // help text
+            $('#forgotPasswordMobileSetPasswordHelp').hide(); // help text
+            $('#registerHelpEmailid1').hide(); // help text 
+            $('#registerHelpEmailid2').hide(); // help text
+            $('#registerHelpName').hide(); // help text
+            $('#registerHelpMobile').hide(); // help text
+            $('#registerHelpOrganizationName').hide(); // help text
+            $('#registerHelpRole').hide(); // help text
+            $('#registerHelpPassword').hide(); // help text
+            $('.registerDivOrganizationName').hide(); // div
+
+            $(document).on('click','.nav_li_login', function(e){
+                $('#customerLoginSignupModal').modal('show');
+            });
+
+            $(document).on('click','#loginBtn', function(e){
+                e.preventDefault();
+                var email = $('#loginEmail').val();
+                var password = $('#loginPassword').val();
+                var rememberme = 0;
+                if ($('#loginRememberme').is(":checked")) {rememberme = 1}
+                $.ajax({
+                    url: 'https://www.shgtechnologies.com/user-login',
+                    type: "POST",
+                    data: {_token:'EUv9vi1mVdLk7pvwcwDBKUnOFu9A9oL0hf3iANuS', email:email, password:password, remember_me:rememberme},
+                    success: function(response) {
+                        if(response.status == 'success'){
+                            
+                            if(response.role_id == '1'){
+                                location.href = "index.html";
+                            } else if(response.role_id == '4'){
+                                location.href = "index.html";
+                            } else if(response.role_id == '5'){
+                                location.href = "index.html";
+                            }
+                        } else {
+                            $('#loginHelp').show(); // help text
+                            Swal.fire({ icon:'error', title:response.error, showConfirmButton:false });
+                        }
+                    },
+                    error:function(err){
+                        Swal.fire({ icon:'error', title:'Something went wrong', showConfirmButton:false });
+                        console.log('Error is: '+err);
+                    }
+                });
+            });
+
+            $(document).on('click','#registerBtn', function(e){
+                e.preventDefault();
+                var email = $('#registerEmail').val();
+                var name = $('#registerName').val();
+                var mobile = $('#registermobile').val();
+                var role = $('#registerRole').val();
+                var organizationName = $('#registerOrganizationName').val();
+                var password = $('#registerPassword').val();
+                var validationError = false;
+                
+                var emailcheck = /^(?:[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+\.)*[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+@(?:(?:(?:[a-zA-Z0-9](?:[a-zA-Z0-9\-](?!\.)){0,61}[a-zA-Z0-9]?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9\-](?!$)){0,61}[a-zA-Z0-9]?)|(?:\[(?:(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\.){3}(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\]))$/;
+                
+                if (email.match(emailcheck)){
+                    $('#registerEmail').removeClass('is-invalid');
+                    $('#registerHelpEmailid1').hide();
+                    $('#registerHelpEmailid2').hide();
+                }else{
+                    $('#registerEmail').addClass('is-invalid');
+                    $('#registerHelpEmailid1').show();
+                    document.getElementById("registerEmail").focus();
+                    validationError = true;
+                }
+
+                if(name.length < 3){
+                    $('#registerName').addClass('is-invalid');
+                    $('#registerHelpName').show();
+                    document.getElementById("registerName").focus();
+                    validationError = true;
+                }else{
+                    $('#registerName').removeClass('is-invalid');
+                    $('#registerHelpName').hide();
+                }
+
+                if(mobile.length < 3){
+                    $('#registermobile').addClass('is-invalid');
+                    $('#registerHelpMobile').show();
+                    document.getElementById("registermobile").focus();
+                    validationError = true;
+                }else{
+                    $('#registermobile').removeClass('is-invalid');
+                    $('#registerHelpMobile').hide();
+                }
+
+                if(role.length == 0){
+                    $('#registerRole').addClass('is-invalid');
+                    $('#registerHelpRole').show();
+                    document.getElementById("registerRole").focus();
+                    validationError = true;
+                }else{
+                    $('#registerRole').removeClass('is-invalid');
+                    $('#registerHelpRole').hide();
+                }
+
+                if (role == 5 || role == 7){
+                    if(organizationName.length == 0){
+                        $('#registerOrganizationName').addClass('is-invalid');
+                        $('#registerHelpOrganizationName').show();
+                        document.getElementById("registerOrganizationName").focus();
+                        validationError = true;
+                    }else{
+                        $('#registerOrganizationName').removeClass('is-invalid');
+                        $('#registerHelpOrganizationName').hide();
+                    }
+                } else {
+                    $('#registerOrganizationName').val('');
+                    $('#registerOrganizationName').removeClass('is-invalid');
+                    $('#registerHelpOrganizationName').hide();
+                }
+
+                if(password.length < 6){
+                    $('#registerPassword').addClass('is-invalid');
+                    $('#registerHelpPassword').show();
+                    document.getElementById("registerPassword").focus();
+                    validationError = true;
+                }else{
+                    $('#registerPassword').removeClass('is-invalid');
+                    $('#registerHelpPassword').hide();
+                }
+
+                if (validationError == true){
+                    return false;
+                }
+                $.ajax({
+                    url: "https://www.shgtechnologies.com/user-register",
+                    type: "POST",
+                    data: {_token:'EUv9vi1mVdLk7pvwcwDBKUnOFu9A9oL0hf3iANuS', email:email, name:name, mobile:mobile, role:role, organizationName:organizationName, password:password},
+                    success: function(response) {
+                        if(response.status == 'success'){
+                            $('#registerEmail').val('');
+                            $('#registerName').val('');
+                            $('#registerRole').val('');
+                            $('#registerOrganizationName').val('');
+                            $('#registerPassword').val('');
+                            $('#loginTab').show(); // tab
+                            $('#registerTab').hide(); // tab
+                            $("#customerLoginSignupModal .modal-dialog").removeClass("modal-lg");
+                            Swal.fire({ icon:'success', title:'Successfully registered. Proceed with Login', showConfirmButton:false });
+                        } else if(response.status == 'duplicate_email'){
+                            $('#registerEmail').addClass('is-invalid');
+                            $('#registerHelpEmailid2').show(); // help text
+                            document.getElementById("registerEmail").focus();
+                            Swal.fire({ icon:'warning', title:'Email already exists', showConfirmButton:false });
+                        } else {
+                            Swal.fire({ icon:'error', title:response.error, showConfirmButton:false });
+                        }
+                    },
+                    error:function(err){
+                        Swal.fire({ icon:'error', title:'Something went wrong', showConfirmButton:false });
+                        console.log('Error is: '+err);
+                    }
+                });
+            });
+
+            $('#registerRole').change(function(e){
+                var role = $('#registerRole').val();
+                if (role == 5 || role == 7){
+                    $('.registerDivOrganizationName').show(); // div
+                } else {
+                    $('#registerOrganizationName').val('');
+                    $('.registerDivOrganizationName').hide(); // div}
+                }
+            });
+
+            $(document).on('click','.gotoRegisterTab', function(e){
+                $('#registerTab').show(); // tab
+                $('#loginTab').hide(); // tab
+                $('#forgotPasswordEmailTab').hide(); // tab
+                $('#checkEmailMobileHelp').hide(); // help text
+                $("#customerLoginSignupModal .modal-dialog").addClass("modal-lg");
+            });
+
+            $(document).on('click','.gotoLoginTab', function(e){
+                $('#registerTab').hide(); // tab
+                $('#loginTab').show(); // tab
+                $('#forgotPasswordEmailTab').hide(); // tab
+                $('#checkEmailMobileHelp').hide(); // help text
+                $("#customerLoginSignupModal .modal-dialog").removeClass("modal-lg");
+            });
+        });
+    </script>
+        <script>
+        $(function() {
+            $('.play-video-button').click(function() {
+                $("#videoModal").modal({backdrop:'static', keyboard:false});
+                $('#videoModal').modal('show');
+                document.querySelector("#video").play();
+            });
+            $('#videoModal').on('hidden.bs.modal', function () {
+                document.querySelector("#video").pause();
+            })
+        });
+    </script>
+</body>
+
+<!-- Mirrored from www.shgtechnologies.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 16:21:09 GMT -->
+</html>
